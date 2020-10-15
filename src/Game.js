@@ -54,7 +54,6 @@ export default class Game {
     this.start();
   }
 
-  // TODO tie not working
   getWinner() {
     const winner = this.players.reduce(
       (acc, player) =>
